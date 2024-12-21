@@ -6,6 +6,7 @@
 ![Video DEMO 3l](https://raw.githubusercontent.com/CTNone/RLagent/trained_blue%20(16).mp4)
 ![VideoDEMO 4l](https://raw.githubusercontent.com/CTNone/RLagent/main/trained_blue%20(23).mp4)
 # Chu Thân Nhất ( 22022578 )
+Email: 22022578@vnu.edu.vn
 ## Giới thiệu
 
 Dự án này nhằm mục đích huấn luyện các agent sử dụng thuật toán QMIX trong môi trường chiến đấu của MAgent2. PyTorch được sử dụng để xây dựng và huấn luyện các mô hình học sâu, với mục tiêu tối ưu hóa hiệu suất và tăng cường khả năng phối hợp giữa các agent.
@@ -23,21 +24,28 @@ Dự án này nhằm mục đích huấn luyện các agent sử dụng thuật 
 1. Tải file Untitled0.ipynb về và chạy trên colab.
 2. Chạy cell 1
    
- %%capture
- 
+
+```bash
+  %%capture
 !git clone https://github.com/giangbang/RL-final-project-AIT-3007
-
 %cd RL-final-project-AIT-3007
-
 !pip install -r requirements.txt
+```
+
 
 3. Chạy cell thứ 2
    
-!python main.py để thực hiện train
+ để thực hiện train
+```bash
+   !python main.py
+```
 
 4. Đánh giá
    
-!python eval.py để thực hiện đánh giá 
+ để thực hiện đánh giá 
+```bash
+    !python eval.py
+```
 
 ## Sử dụng
 
@@ -89,6 +97,6 @@ agent_optimizers = [optim.Adam(network.parameters(), lr=0.001) for network in ag
 qmixer_optimizer = optim.Adam(qmixer.parameters(), lr=0.001)
 
 # Huấn luyện các agent (chi tiết trong main.py)
-
+```
 
 Hy vọng mẫu README.md này sẽ giúp bạn tạo ra một tài liệu hướng dẫn chi tiết và chuyên nghiệp cho dự án của mình! Nếu bạn cần thêm thông tin hoặc hỗ trợ, đừng ngần ngại hỏi.
