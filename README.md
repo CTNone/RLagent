@@ -1,7 +1,10 @@
 # Dự án Huấn Luyện Agent Sử Dụng Thuật Toán QMIX
 
-![Video thumbnail](https://raw.githubusercontent.com/CTNone/RLagent/main/episode_0%20(1).mp4)
+![Video DEMO 1l](https://raw.githubusercontent.com/CTNone/RLagent/main/episode_0%20(1).mp4)
+![Video DEMO 2l](https://raw.githubusercontent.com/CTNone/RLagent/blob/main/episode_2.mp4)
 
+![Video DEMO 3l](https://raw.githubusercontent.com/CTNone/RLagent/trained_blue%20(16).mp4)
+![VideoDEMO 4l](https://raw.githubusercontent.com/CTNone/RLagent/main/trained_blue%20(23).mp4)
 # Chu Thân Nhất ( 22022578 )
 ## Giới thiệu
 
